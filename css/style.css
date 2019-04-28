@@ -1,0 +1,217 @@
+
+
+/***
+    megangrass.github.io
+
+    Megan Grass
+    April 16, 2019
+***/
+
+
+/*** Global ***/
+* {
+    font-family: agency-fb, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+a:visited {
+    color: #C5C5C5;
+}
+
+
+
+/*** Images ***/
+.image-splash {
+    height: 48vh;
+    background: url('../images/rainbow_lg.jpg');
+    border-radius: 7px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.image-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 64px;
+}
+.image-blog {
+    width: 75%;
+    height: 100%;
+    border-radius: 7px;
+}
+.image-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.75);
+    position: absolute !important;
+    border-radius: 7px;
+}
+.image {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+/*** Header ***/
+header h1 {
+    color: #C5C5C5;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+
+
+/*** Navigation ***/
+nav {
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: #F5F5F5;
+    display: grid;
+    border: 0.75px solid;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.075);
+    box-shadow: 8px 12px 64px #050505;
+    margin-left: 32%;
+    margin-right: 32%;
+    padding: 12px 0 12px 0;
+    justify-content: center;
+}
+nav a {
+    color: #C5C5C5 !important;
+    cursor: pointer;
+    transition-duration: 0.7s !important;
+}
+nav a:hover {
+    color: #454545 !important;
+    text-shadow: 4px 8px 16px #050505;
+    letter-spacing: 2px !important;
+}
+nav a:active {
+    color: #454545 !important;
+    text-shadow: 2px 4px 8px #050505;
+    transition-duration: 0.1s !important;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+nav li {
+    float: left;
+    padding: 0 32px 0 32px;
+}
+
+
+
+/*** Information ***/
+.info-text {
+    color: #89B027;
+}
+
+
+
+/*** Blog ***/
+.blog {
+    color: #454545;
+    font-size: 18px;
+    background-color: #F5F5F5;
+    border: 0.75px solid;
+    border-radius: 7px;
+    border-color: rgba(25, 0, 0, 0.075);
+    box-shadow: 24px 24px 128px 10px #858585;
+    margin: 48px 48px 64px 48px;
+    padding: 8px 0 32px 8px;
+    overflow: hidden;
+}
+.blog h1 {
+    font-size: 200%;
+    letter-spacing: 0.25px;
+    margin: 0 0 0 8px;
+}
+.blog-user {
+    font-size: 110%;
+    margin: 8px 0 0 8px;
+    text-align: left !important;
+}
+.blog-image {
+    margin: 8px 0 0 8px;
+    text-align: center !important;
+}
+.blog-description {
+    font-size: 110%;
+    letter-spacing: 0.5px;
+    white-space: pre;
+}
+.blog-description a {
+    color: blue !important;
+}
+.blog-contact {
+    font-size: 110%;
+    letter-spacing: 0.5px;
+}
+.blog-contact fieldset {
+    padding-left: 2px;
+    margin-right: 10px;
+}
+.blog-button {
+    text-align: center !important;
+    margin: 32px 0 8px 0;
+    letter-spacing: 0 !important;
+}
+.blog-button a {
+    color: #454545 !important;
+    font-size: 110%;
+    cursor: pointer;
+    background-color: #F5F5F5;
+    border: 1.5px solid #C5C5C5;
+    border-radius: 7px;
+    padding: 8px 16px 8px 16px;
+    margin: 4px 2px 4px 2px;
+    transition-duration: 0.7s !important;
+}
+.blog-button a:hover {
+    color: #C5C5C5 !important;
+    background-color: #454545;
+    border-color: #454545;
+    box-shadow: 8px 12px 20px #050505;
+    letter-spacing: 1px !important;
+}
+.blog-button a:active {
+    color: #454545 !important;
+    background-color: #C5C5C5;
+    border-color: #C5C5C5;
+    box-shadow: 4px 8px 16px #050505;
+    transition-duration: 0.1s !important;
+}
+
+
+
+/*** Footer ***/
+footer {
+    font-size: 14px;
+    color: #454545;
+    background-color: #050505;
+    display: grid;
+    border-radius: 7px;
+    justify-content: center;
+}
+footer a {
+    font-size: 128%;
+}
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+footer li {
+    background-color: #000000;
+    float: left;
+    white-space: pre;
+}

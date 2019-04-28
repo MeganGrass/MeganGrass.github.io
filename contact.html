@@ -9,7 +9,7 @@
     <meta name="author" content="Megan Grass" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-    <title>Megan Grass @ GitHub</title>
+    <title>Contact Megan Grass @ GitHub</title>
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -47,54 +47,38 @@
     <!--- Main --->
     <main>
 
-        <!--- I hacked Resident Evil 2 to bits! --->
+        <!--- Contact --->
         <article class="blog">
 
-            <h1>I hacked Resident Evil 2 to bits!</h1>
+            <form class="blog-contact" method="POST" action="http://webdevbasics.net/scripts/demo.php">
 
-            <div class="image blog-user">
-                <a href="https://github.com/MeganGrass">
-                    <img src="https://avatars2.githubusercontent.com/u/22947949" class="image-avatar" width="48" height="48" alt="Megan Grass"> Megan Grass
-                </a> &mdash; April 7, 2019
-            </div>
+                <fieldset>
+                    <legend>Contact Me!</legend>
+                    <label>First Name: <input type="text" name="fname" id="fname" /></label>
+                    <label for="lname">Last Name: <input type="text" name="lname" id="lname" /></label>
+                    Email: <input type="text" name="email" id="email" accesskey="e" />
+                </fieldset>
 
-            <div class="image blog-image">
-                <a href="I-hacked-Resident-Evil-2-to-bits!.html">
-                    <img src="images/I-hacked-Resident-Evil-2-to-bits!.jpg" class="image-blog" width="1000" height="200" alt="Resident Evil 2 Disassembly" />
-                </a>
-            </div>
+                <p>
+                    <fieldset>
+                        Topics:
+                        <select size="1" name="topic" id="topic">
+                            <option value="Job">Job/Hire</option>
+                            <option value="Website">Website</option>
+                            <option value="Personal">Personal</option>
+                            <option value="Other">Other</option>
+                        </select>
 
-            <p class="blog-description">
-                Lorem epsum pon pacci?
+                        <textarea name="comments" id="comments" rows="1" cols="100"></textarea>
+                        <input type="submit" value="contact" />
+                        <input type="reset" />
+                    </fieldset>
+                </p>
 
-                Viva e digniss.
-            </p>
-
-            <div class="blog-button">
-                <a href="I-hacked-Resident-Evil-2-to-bits!.html">Continue Reading</a>
-            </div>
-
-        </article>
-
-        <!--- Hello, World. --->
-        <article class="blog">
-
-            <h1>Hello, World.</h1>
-
-            <div class="image blog-user">
-                <a href="https://github.com/MeganGrass">
-                    <img src="https://avatars2.githubusercontent.com/u/22947949" class="image-avatar" width="48" height="48" alt="Megan Grass"> Megan Grass
-                </a> &mdash; April 7, 2019
-            </div>
-
-            <div class="image blog-image">
-                <img src="images/rainbow.jpg" class="image-blog" alt="Rainbow" />
-            </div>
-
-            <p class="blog-description"></p>
+            </form>
 
             <div class="blog-button">
-                <a href="#">Back To Top</a>
+                <a href="index.html">Home</a>
             </div>
 
         </article>
